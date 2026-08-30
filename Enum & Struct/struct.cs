@@ -4,7 +4,7 @@ public class Program
     {
         ProductDimensions product1 = new ProductDimensions(10,20,30);
 
-        ProductDimensions product2 = product1;
+        ProductDimensions product2 = product1; // value type
 
         product2.Width = 50;
 

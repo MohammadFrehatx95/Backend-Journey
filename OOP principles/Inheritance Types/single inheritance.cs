@@ -13,7 +13,7 @@ public class Program
 
 public class Vehicle
 {
-    public string Brand { get; set; } = string.Empty;
+    public string Brand { get; set; }
 
     public void Start()
     {
